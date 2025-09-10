@@ -1,0 +1,9 @@
+app launcher
+file searcher
+clipboard manager
+
+web search
+wikipedia 
+
+code helper
+email writter (in progress)
