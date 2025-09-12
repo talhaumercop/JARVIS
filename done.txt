@@ -6,4 +6,10 @@ web search
 wikipedia 
 
 code helper
-email writter (in progress)
+email writter and sender
+music player
+api tester
+system controller
+pdf and docs reader
+scraper
+powershell runner
