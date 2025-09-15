@@ -17,7 +17,7 @@ def system_control(
     ]
 ) -> str:
     """
-    Perform system control actions like volume, brightness, shutdown, restart, or lock.
+    Perform system control actions like volume_up, volume_down, brightness_up,brightness_down, shutdown, restart, or lock.
     """
 
     try:

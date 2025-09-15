@@ -14,9 +14,19 @@ EMAIL_PASS = os.getenv("EMAIL_PASS")
 @function_tool
 def send_email(to_email: str, subject: str, body: str):
     """
-    Send an email using Gmail SMTP.
-    """
+    Send an email using Gmail SMTP server.
 
+    Args:
+        to_email (str): The recipient's email address
+        subject (str): The subject line of the email
+        body (str): The main content/message of the email
+
+    Returns:
+        str: A success message if email is sent, or an error message if sending fails
+
+    Raises:
+        ValueError: If EMAIL_USER or EMAIL_PASS environment variables are not set
+    """
     from_address = EMAIL_USER
     password = EMAIL_PASS
 

@@ -6,8 +6,8 @@ def text_to_speech(text: str) -> None:
     """
     try:
         engine = pyttsx3.init()
-        voices = engine.getProperty("voices")
-        engine.setProperty("voice", voices[1].id)
+        # voices = engine.getProperty("voices")
+        # engine.setProperty("voice", voices[1].id)
         engine.say(text)
         engine.runAndWait()
         print("✅ Finished speaking.")
